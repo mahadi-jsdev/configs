@@ -3,7 +3,7 @@ dimensions = { columns = 120, lines = 35 }
 padding = { x = 0, y = 0 }
 decorations = "none"
 startup_mode = "Maximized"
-opacity = 1
+opacity = 1.0
 blur = true
 
 [font]
@@ -16,40 +16,41 @@ offset = { x = 0, y = 0 }
 glyph_offset = { x = 0, y = 0 }
 builtin_box_drawing = true
 
+# 🎨 Colors synced with your Neovim theme
 [colors.primary]
-background = "#282a36"
-foreground = "#f8f8f2"
+background = "#171f2b"
+foreground = "#d9dfe7"
 
 [colors.cursor]
-text = "#282a36"
-cursor = "#f8f8f2"
+text = "#171f2b"
+cursor = "#e0ccff"
 
 [colors.selection]
 text = "CellForeground"
-background = "#44475a"
+background = "#264dcb"
 
 [colors.normal]
-black   = "#21222c"
-red     = "#ff5555"
-green   = "#50fa7b"
-yellow  = "#f1fa8c"
-blue    = "#bd93f9"
-magenta = "#ff79c6"
-cyan    = "#8be9fd"
-white   = "#f8f8f2"
+black   = "#738295"
+red     = "#f76769"
+green   = "#17b877"
+yellow  = "#ffa23e"
+blue    = "#708fff"
+magenta = "#a87ffb"
+cyan    = "#25a6e9"
+white   = "#a4afbd"
 
 [colors.bright]
-black   = "#6272a4"
-red     = "#ff6e6e"
-green   = "#69ff94"
-yellow  = "#ffffa5"
-blue    = "#d6acff"
-magenta = "#ff92df"
-cyan    = "#a4ffff"
-white   = "#ffffff"
+black   = "#8b98a9"
+red     = "#fc8f8e"
+green   = "#66ce98"
+yellow  = "#ffc26e"
+blue    = "#a2b6ff"
+magenta = "#c8aaff"
+cyan    = "#71c2ee"
+white   = "#fafbfe"
 
 [cursor]
-style = { shape = "Beam", blinking = "On" }  # thin beam cursor feels sleek
+style = { shape = "Beam", blinking = "On" }
 unfocused_hollow = true
 thickness = 0.15
 
@@ -72,3 +73,4 @@ bindings = [
   { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
   { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
 ]
+
