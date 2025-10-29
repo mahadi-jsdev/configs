@@ -8,6 +8,8 @@ window-decoration = false
 window-theme = dark
 background-opacity = 1.0
 background-blur-radius = 20
+window-inherit-working-directory = true
+window-inherit-font-size = true
 
 # Font configuration
 font-family = JetBrainsMono Nerd Font
@@ -70,7 +72,8 @@ clipboard-write = allow
 keybind = ctrl+shift+v=paste_from_clipboard
 keybind = ctrl+shift+c=copy_to_clipboard
 keybind = ctrl+shift+n=new_window
-keybind = ctrl+0=reset_font_size
+keybind = ctrl+zero=reset_font_size
+
 
 # Performance
 auto-update = off
