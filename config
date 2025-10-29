@@ -1,0 +1,73 @@
+# Ghostty Configuration
+# Save this as: ~/.config/ghostty/config
+
+# Window settings
+window-padding-x = 0
+window-padding-y = 0
+window-decoration = false
+window-theme = dark
+background-opacity = 1.0
+background-blur-radius = 20
+
+# Font configuration
+font-family = JetBrainsMono Nerd Font
+font-style = Regular
+font-style-bold = Bold
+font-style-italic = Italic
+font-style-bold-italic = Bold Italic
+font-size = 14
+
+# Cursor settings
+cursor-style = bar
+cursor-style-blink = true
+cursor-opacity = 1.0
+unfocused-split-opacity = 0.7
+
+# Colors - synced with your Neovim theme
+background = 171f2b
+foreground = d9dfe7
+
+cursor-color = e0ccff
+cursor-text = 171f2b
+
+selection-background = 264dcb
+selection-foreground = d9dfe7
+
+# Normal colors
+palette = 0=#738295
+palette = 1=#f76769
+palette = 2=#17b877
+palette = 3=#ffa23e
+palette = 4=#708fff
+palette = 5=#a87ffb
+palette = 6=#25a6e9
+palette = 7=#a4afbd
+
+# Bright colors
+palette = 8=#8b98a9
+palette = 9=#fc8f8e
+palette = 10=#66ce98
+palette = 11=#ffc26e
+palette = 12=#a2b6ff
+palette = 13=#c8aaff
+palette = 14=#71c2ee
+palette = 15=#fafbfe
+
+# Scrollback
+scrollback-limit = 20000
+
+# Mouse
+mouse-hide-while-typing = true
+
+# Selection
+clipboard-read = allow
+clipboard-write = allow
+
+# Keybindings
+keybind = ctrl+shift+v=paste_from_clipboard
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+n=new_window
+keybind = ctrl+0=reset_font_size
+
+# Performance
+auto-update = off
