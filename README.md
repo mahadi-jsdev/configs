@@ -54,7 +54,11 @@ folder - ~/.bashrc
 Install plugin -
 `bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"`
 
-sudo apt install imagemagick
+### install imagick
+`sudo apt install imagemagick`
+
+### Install lua
+`sudo apt install lua5.4 liblua5.4-dev`   
 
 
 **note: ** Install alacritty and tmux.
